@@ -9,7 +9,7 @@ This repository tracks my journey from zero development knowledge to shipping pr
 ## 📊 Current Status
 
 **Learning Tier:** Survival (COMPLETE ✅)  
-**Commands Mastered:** 12 (Git workflow + Terminal survival tier)  
+**Commands Mastered:** 13+ (Git workflow + Terminal survival tier + Power user tools)  
 **Sessions Completed:** 2  
 **Total Commits:** 7  
 **Milestones:** 12
@@ -69,6 +69,18 @@ dev-fundamentals/
 - `git clone` - 1 rep
 - `mkdir` - 3 reps
 
+### Power User Tools - IN PROGRESS
+- ✅ `|` (pipes) - 6+ reps - Chaining commands
+- ✅ `git log` flags - Multiple variations explored
+- Aliases (session-only): gs, ga, gc, gp, gll, .., ..., repo
+
+### Concepts Touched On (Not Fully Covered)
+- PowerShell scripting syntax (`param`, `$variables`)
+- Function composition (functions calling functions)
+- UI interaction patterns (button → data flow → output)
+- Command chaining with `;`
+- Permanent alias configuration (PowerShell profile)
+
 ### Milestones Achieved
 - ✅ Created GitHub repository
 - ✅ Cloned repo to local machine
@@ -119,3 +131,33 @@ This repo is designed to be read by Claude in future Projects. Each tracking fil
 - Completing Git workflow mastery ✅
 - Terminal survival tier complete ✅
 - 8 new commands mastered in one session ✅
+
+---
+
+## 🧠 Learning Patterns Observed
+
+### Systems Thinking
+- Makes logical leaps between domains (terminal → functions → UI)
+- Asks "how does this connect?" not just "what's next?"
+- Builds mental models rather than memorizing commands
+- Pattern recognition across different contexts
+
+### Self-Directed Discovery
+- Self-taught 3 commands before formal instruction
+- Explores without permission (tried --twoline, pipes)
+- Tests hypotheses through experimentation
+- 100% self-correction rate on errors
+
+### Meta-Awareness
+- Questions what they don't understand (param syntax)
+- Demands complete working examples
+- Verifies their logic ("was I wrong though?")
+- Recognizes when making connections beyond taught material
+
+### Hacker Mindset
+- Security researcher background showing through
+- Thinks in data flows: input → processing → output
+- Explores edge cases and conflicts
+- Values understanding over memorization
+
+---

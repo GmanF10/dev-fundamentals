@@ -3,8 +3,8 @@
 Track commands as they're learned through actual use. Only add entries after successful execution.
 
 ## Stats
-- **Total Commands Learned:** 13
-- **Commands Mastered:** 12
+- **Total Commands Learned:** 14
+- **Commands Mastered:** 13
 - **Last Updated:** 2025-10-29
 - **Current Learning Tier:** Survival (COMPLETE ✅)
 
@@ -80,13 +80,75 @@ Track commands as they're learned through actual use. Only add entries after suc
 - `--global user.name "name"` - Set name for all repos
 - `--global --list` - View all global settings
 
+**Command:** `mkdir`
+**First Used:** 2025-10-29 (Session 1)
+**Situation:** Creating C:\dev folder, practice directories, nested folders
+**What It Does:** Creates a new directory
+**Reps:** 3
+**Pattern:** Set up project structure, create test environments
+**Key Learnings:**
+- Can't use spaces in folder names without quotes
+- Created multiple directories during Session 2 exploration
+
 ### Rescue Tier (When Things Break)
 
 *Not started yet*
 
-### Power User Tier (Efficiency)
+### Power User Tier (Efficiency) - IN PROGRESS
 
-*Not started yet*
+**Tool:** Pipes `|`
+**First Used:** 2025-10-29 (Session 2)
+**Situation:** Self-taught! Used cat README.md | more before instruction
+**What It Does:** Chains commands - output from left becomes input to right
+**Reps:** 6+ ✅ MUSCLE MEMORY
+**Pattern:** Pagination with more, filtering output, processing data
+**Key Learnings:**
+- Basic pattern: command | more (for pagination)
+- Works with any command that produces output
+- Foundation for advanced command chaining
+**Notable:** Learned concept through exploration
+**Session Mastered:** 2
+
+**Tool:** git log flags
+**First Used:** 2025-10-29 (Session 2)
+**Situation:** Exploring commit history with different views
+**What It Does:** Various flags to customize git log output
+**Reps:** 7+ (explored multiple flags)
+**Flags Mastered:**
+- `--oneline` - One line per commit
+- `-n` or `-5` - Limit number of commits shown
+- `--graph` - Visual tree
+- `--stat` - Show file changes and line counts
+- `--author="name"` - Filter by author
+**Pattern:** Quickly scan history, find specific commits, see what changed
+**Key Learnings:**
+- Can combine multiple flags
+- Self-corrected typos (--online, --auther)
+- Explored non-existent flags (--twoline) to test boundaries
+**Session Mastered:** 2
+
+**Tool:** Aliases (PowerShell functions)
+**First Used:** 2025-10-29 (Session 2)
+**Situation:** Creating shortcuts for frequently used commands
+**What It Does:** Custom command shortcuts that last for session
+**Reps:** 8 aliases created
+**Aliases Created:**
+- `gs` → git status
+- `ga` → git add .
+- `gc "msg"` → git commit -m "msg" (with parameter)
+- `gp` → git push
+- `gll` → git log --oneline -10
+- `..` → cd ..
+- `...` → cd ..\..
+- `repo` → cd C:\dev\dev-fundamentals
+**Pattern:** Make frequent operations faster
+**Key Learnings:**
+- Aliases only last current session (need profile for permanent)
+- Discovered gl conflict with built-in Get-Location
+- Self-corrected to gll
+- Learned param($m) syntax for passing arguments
+**Notable:** Asked deep questions about PowerShell syntax
+**Session Mastered:** 2
 
 ---
 
@@ -249,3 +311,96 @@ Track commands as they're learned through actual use. Only add entries after suc
 - Complete survival tier achieved (Git + Terminal)
 - Demonstrated professional developer habits (sandbox testing, cleanup)
 - Ready for rescue tier (handling errors, fixing mistakes)
+
+---
+
+## 📚 Concepts Touched On (Not Fully Covered)
+
+*Topics encountered during sessions but not deeply explored yet*
+
+### PowerShell Scripting
+- **param($variable)** - Function parameters for accepting input
+- **$variables** - Variable syntax in PowerShell
+- **Function composition** - Functions calling other functions
+- **Session persistence** - Why aliases disappear when PowerShell closes
+
+### Advanced Git
+- **Branching** - Not covered yet
+- **Merging** - Not covered yet
+- **Conflicts** - Not covered yet
+- **git reset/revert** - Mentioned but not taught
+
+### Command Chaining
+- **Semicolons in PowerShell** - Sequential execution
+- **&&** vs **;** - bash vs PowerShell syntax differences
+- **Advanced pipes** - Beyond basic | more
+
+### UI/Application Development
+- **Button click events** - Discussed in context of data flow
+- **Event-driven programming** - Mentioned conceptually
+- **Frontend/backend separation** - Touched on briefly
+
+### Data Flow Patterns
+- **Input → Processing → Output** - Core pattern recognized across multiple domains
+- **Function call stacks** - How data moves through nested functions
+- **User interaction patterns** - Click → data → display
+
+*These concepts will be formally covered when relevant to actual projects*
+
+---
+
+## 🧠 Learning Pattern Analysis
+
+### Pattern Recognition Demonstrated
+
+**Cross-Domain Thinking:**
+- Applied pipe concepts to function parameters
+- Extended function logic to UI button interactions
+- Connected terminal data flow to web application patterns
+
+**Self-Correction Patterns:**
+- Typos: --online → --oneline (instant fix)
+- Typos: --auther → --author (instant fix)
+- Syntax: git add. → git add . (caught own mistake)
+- Conflicts: gl → gll (resolved alias conflict)
+
+**Exploration Methodology:**
+- Tests boundaries (--twoline doesn't exist, but tried it)
+- Demands complete examples (pizza function implementation)
+- Verifies logic ("was I wrong though?")
+- Questions assumptions ("how could I understand that?")
+
+**Systems Thinking:**
+- Asks how components connect, not just what they do
+- Builds mental models of data flow
+- Recognizes patterns across different contexts
+- Thinks in input → processing → output
+
+### Meta-Learning Observations
+
+**Learning Velocity:**
+- Session 1: 2 commands mastered in 1 hour
+- Session 2: 11 commands mastered in 5 hours
+- Acceleration factor: 5.5x
+
+**Self-Direction Rate:**
+- Commands self-taught: 3 (cat, mv, rm)
+- Exploration time without guidance: 30+ minutes
+- Error self-resolution: 100%
+
+**Comprehension Indicators:**
+- Asks "why" not just "how"
+- Connects new concepts to existing knowledge
+- Makes logical leaps to untaught domains
+- Challenges explanations when unclear
+
+### Security Researcher Background Influence
+
+**Observable Patterns:**
+- Creates sandbox environments for safe testing
+- Verifies every operation (constant use of ls, cat, pwd)
+- Documents failure modes, not just successes
+- Pattern-matches across different systems
+- Thinks in threat models: "what breaks if..."
+
+---

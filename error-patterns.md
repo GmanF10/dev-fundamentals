@@ -100,6 +100,58 @@ mv practice Tracking_Files
 
 ---
 
+## Alias & Command Conflicts
+
+**Error:** Using `gl` shows path instead of git log
+
+**Command That Caused It:** 
+```powershell
+function gl { git log --oneline -10 }
+gl  # Shows path, not git log
+```
+
+**Pattern Recognition:**
+- PowerShell already has `gl` as alias for `Get-Location`
+- Custom alias created but built-in alias takes precedence
+- No error message - just unexpected behavior
+
+**Root Cause:**
+PowerShell has built-in aliases that conflict with custom names
+
+**Fix:**
+Use different alias name:
+```powershell
+function gll { git log --oneline -10 }
+```
+
+**Prevention:** Check if command name already exists before creating alias
+
+**First Encountered:** 2025-10-29 (Session 2)  
+**Resolution:** ✅ Self-corrected by choosing different name (gll)
+
+---
+
+## Self-Correction Patterns
+
+### Pattern: Instant Typo Recognition
+
+**Multiple Instances:**
+- `--online` → `--oneline` (git log flag)
+- `--auther` → `--author` (git log flag)
+- `git add.` → `git add .` (missing space)
+
+**Pattern Recognition:**
+- Error message identifies the typo
+- Immediate self-correction without asking for help
+- No repeated mistakes
+
+**Learning:** High attention to syntax details, quick error identification
+
+**First Encountered:** Throughout Session 2  
+**Resolution Rate:** 100% self-correction
+
+---
+
 ## Terminal Errors
 
 ### Minor Pattern: Premature Push
