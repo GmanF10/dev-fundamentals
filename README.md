@@ -9,13 +9,13 @@ This repository tracks my journey from zero development knowledge to shipping pr
 ## 📊 Current Status
 
 **Learning Tier:** Survival (Git basics)  
-**Commands Mastered:** 0 (need 5+ reps for mastery)  
-**Commands In Progress:** 8  
+**Commands Mastered:** 4 (git status, git add, git commit, git push)  
+**Commands In Progress:** 5  
 **Errors Encountered:** 1  
-**Milestones:** 6
+**Milestones:** 7
 
 **Last Updated:** 2025-10-29  
-**Session:** 1
+**Session:** 1 (Complete)
 
 ---
 
@@ -48,15 +48,18 @@ dev-fundamentals/
 
 ## 📈 Progress Tracking
 
+### Commands Mastered (5+ reps)
+- ✅ `git status` - 7 reps - MASTERED
+- ✅ `git add` - 7 reps - MASTERED  
+- ✅ `git commit` - 7 reps - MASTERED
+- ✅ `git push` - 6 reps - MASTERED
+
 ### Commands Currently Learning
-- `git status` - Reps: 4
-- `git add` - Reps: 3
-- `git commit` - Reps: 3
-- `git push` - Reps: 4
-- `git clone` - Reps: 1
-- `cd` - Reps: 3+
-- `ls`/`dir` - Reps: 2
-- `mkdir` - Reps: 1
+- `git config` - 2 reps
+- `git clone` - 1 rep
+- `cd` - 3+ reps
+- `ls`/`dir` - 2 reps
+- `mkdir` - 1 rep
 
 ### Milestones Achieved
 - ✅ Created GitHub repository
@@ -65,6 +68,7 @@ dev-fundamentals/
 - ✅ First successful push
 - ✅ Fixed first error independently
 - ✅ Ran full Git workflow without guidance
+- ✅ Achieved muscle memory on 4 commands (git status, git add, git commit, git push)
 
 ---
 
