@@ -67,7 +67,7 @@ dev-fundamentals/
 ### Commands Learning
 - `git config` - 2 reps
 - `git clone` - 1 rep
-- `mkdir` - 2 reps
+- `mkdir` - 3 reps
 
 ### Milestones Achieved
 - ✅ Created GitHub repository

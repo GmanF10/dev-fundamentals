@@ -74,7 +74,7 @@ dev-fundamentals/
 ### Commands In Progress (1-4 reps)
 - `git config` - 2 reps
 - `git clone` - 1 rep
-- `mkdir` - 2 reps
+- `mkdir` - 3 reps
 
 ### Current Learning Tier
 **Survival Tier** - COMPLETE ✅

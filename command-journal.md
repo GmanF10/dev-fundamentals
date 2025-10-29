@@ -103,7 +103,7 @@ Track commands as they're learned through actual use. Only add entries after suc
 - [x] `cp` - Status: ✅ MASTERED (6+ reps) - 2025-10-29
 - [x] `mv` - Status: ✅ MASTERED (10+ reps) - 2025-10-29
 - [x] `rm` - Status: ✅ MASTERED (10+ reps) - 2025-10-29
-- [ ] `mkdir` - Status: Learning (2 reps) - 2025-10-29
+- [ ] `mkdir` - Status: Learning (3 reps) - 2025-10-29
 
 **Command:** `pwd`
 **First Used:** 2025-10-29 (Session 2)
