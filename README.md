@@ -8,14 +8,14 @@ This repository tracks my journey from zero development knowledge to shipping pr
 
 ## 📊 Current Status
 
-**Learning Tier:** Survival (Git basics)  
-**Commands Mastered:** 4 (git status, git add, git commit, git push)  
-**Commands In Progress:** 5  
-**Errors Encountered:** 1  
-**Milestones:** 7
+**Learning Tier:** Survival (COMPLETE ✅)  
+**Commands Mastered:** 12 (Git workflow + Terminal survival tier)  
+**Sessions Completed:** 2  
+**Total Commits:** 7  
+**Milestones:** 12
 
 **Last Updated:** 2025-10-29  
-**Session:** 1 (Complete)
+**Session:** 2 (Complete)
 
 ---
 
@@ -40,26 +40,34 @@ dev-fundamentals/
 - No simulation - real terminal, real Git, real deployments
 
 **Tiers:**
-1. **Survival** - Essential daily commands (current)
-2. **Rescue** - Commands for when things break
+1. **Survival** - Essential daily commands ✅ COMPLETE
+2. **Rescue** - Commands for when things break (next)
 3. **Power User** - Efficiency and advanced workflows
 
 ---
 
 ## 📈 Progress Tracking
 
-### Commands Mastered (5+ reps)
-- ✅ `git status` - 7 reps - MASTERED
-- ✅ `git add` - 7 reps - MASTERED  
-- ✅ `git commit` - 7 reps - MASTERED
-- ✅ `git push` - 6 reps - MASTERED
+### Git Commands - MASTERED (5+ reps)
+- ✅ `git status` - 6 reps
+- ✅ `git add` - 5 reps
+- ✅ `git commit` - 5 reps
+- ✅ `git push` - 6 reps
 
-### Commands Currently Learning
+### Terminal Commands - MASTERED (5+ reps)
+- ✅ `pwd` - 6+ reps
+- ✅ `ls` - 40+ reps
+- ✅ `cd` - 15+ reps
+- ✅ `cat` - 10+ reps
+- ✅ `echo` - 6+ reps
+- ✅ `cp` - 6+ reps
+- ✅ `mv` - 10+ reps
+- ✅ `rm` - 10+ reps
+
+### Commands Learning
 - `git config` - 2 reps
 - `git clone` - 1 rep
-- `cd` - 3+ reps
-- `ls`/`dir` - 2 reps
-- `mkdir` - 1 rep
+- `mkdir` - 2 reps
 
 ### Milestones Achieved
 - ✅ Created GitHub repository
@@ -68,7 +76,12 @@ dev-fundamentals/
 - ✅ First successful push
 - ✅ Fixed first error independently
 - ✅ Ran full Git workflow without guidance
-- ✅ Achieved muscle memory on 4 commands (git status, git add, git commit, git push)
+- ✅ Git workflow mastery (all 4 commands at 5+ reps)
+- ✅ Terminal survival tier complete (8 commands mastered)
+- ✅ Self-directed exploration (30+ mins without guidance)
+- ✅ Self-taught commands (learned mv, rm, cp through exploration)
+- ✅ Error pattern recognition (PowerShell syntax differences)
+- ✅ File manipulation mastery (create, move, copy, delete)
 
 ---
 
@@ -103,4 +116,6 @@ dev-fundamentals/
 This repo is designed to be read by Claude in future Projects. Each tracking file is maintained and updated as learning progresses. The command journal, error patterns, and project state provide complete context for continuing where we left off.
 
 ## Session 2 Progress
-- Completing Git workflow mastery
+- Completing Git workflow mastery ✅
+- Terminal survival tier complete ✅
+- 8 new commands mastered in one session ✅
