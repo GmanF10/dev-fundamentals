@@ -26,6 +26,20 @@ Build tools that:
 
 ---
 
+### ⚡ Auto-Commit
+**Purpose:** One-command Git workflow automation  
+**Use Case:** Automate staging, committing, and pushing with intelligent commit messages  
+**Status:** ✅ Complete v1.0  
+**Features:**
+- Full Git workflow in one command
+- Intelligent commit message generation
+- Confirmation prompts for safety
+- Custom message option
+
+[View Documentation](./Auto-Commit/README.md)
+
+---
+
 ## 🚧 Work in Progress
 
 Ideas and tools currently in development:
