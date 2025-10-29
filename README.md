@@ -10,8 +10,8 @@ This repository tracks my journey from zero development knowledge to shipping pr
 
 **Learning Tier:** Survival (COMPLETE ✅)  
 **Commands Mastered:** 13+ (Git workflow + Terminal survival tier + Power user tools)  
-**Sessions Completed:** 2  
-**Total Commits:** 7  
+**Sessions Completed:** 3  
+**Total Commits:** 17  
 **Milestones:** 12
 
 **Last Updated:** 2025-10-29  
@@ -27,6 +27,17 @@ dev-fundamentals/
 ├── error-patterns.md      ← Error database for pattern recognition
 └── project-state.md       ← Real-time progress and session tracking
 ```
+
+---
+
+## 🔧 Tools
+
+Real automation scripts built while learning. Each tool solves an actual problem and lives in `/tools` with its own documentation.
+
+- **File-Organizer** - Auto-sorts messy folders by file type
+- **Auto-Commit** - One-command Git workflow automation
+
+[View all tools →](./tools/README.md)
 
 ---
 
